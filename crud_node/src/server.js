@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const port = process.env.PORT || 3000;
 
+// Inicia o servidor
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
